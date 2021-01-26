@@ -1,2 +1,11 @@
-# iautumn
-python lib use cases
+## iautumn
+python lib use cases（一个python工具包使用例子的集合）
+### **selenium模拟打开百度网盘并自动保存**
+本例子模拟了打开一个特定URL自动获取百度云盘地址及验证码，自动登录百度，自动保存在百度云盘的场景,
+username, password修改成自己百度云盘的登录名和密码，即可运行看效果
+
+**主要解决了以下问题**
+
+    1.绕过了百度的人机验证
+    2.演示了怎样获取获当前HTML弹出div元素的问题
+
